@@ -1,0 +1,9 @@
+<h5>Lista de contatos</h5>
+<ul>
+    <li *ngFor="let contato of contatos">
+       Nome: {{ contato.nome }}
+       Telefone: {{ contato.telefone }}
+       Whatsapp: {{ contato.whatsapp }}
+    </li>
+</ul>
+<button (click)="sair()">Sair</button>
